@@ -135,22 +135,22 @@ cu124onlytorch250 = [
 cu118 = [
     "unsloth[huggingface]",
     "bitsandbytes>=0.43.3",
-    "unsloth[cu118only]",
+    #"unsloth[cu118only]",
 ]
 cu121 = [
     "unsloth[huggingface]",
     "bitsandbytes>=0.43.3",
-    "unsloth[cu121only]",
+    #"unsloth[cu121only]",
 ]
 cu118-torch211 = [
     "unsloth[huggingface]",
     "bitsandbytes>=0.43.3",
-    "unsloth[cu118onlytorch211]",
+    #"unsloth[cu118onlytorch211]",
 ]
 cu121-torch211 = [
     "unsloth[huggingface]",
     "bitsandbytes>=0.43.3",
-    "unsloth[cu121onlytorch211]",
+    #"unsloth[cu121onlytorch211]",
 ]
 cu118-torch212 = [
     "unsloth[huggingface]",
@@ -165,12 +165,12 @@ cu121-torch212 = [
 cu118-torch220 = [
     "unsloth[huggingface]",
     "bitsandbytes>=0.43.3",
-    "unsloth[cu118onlytorch220]",
+    #"unsloth[cu118onlytorch220]",
 ]
 cu121-torch220 = [
     "unsloth[huggingface]",
     "bitsandbytes>=0.43.3",
-    "unsloth[cu121onlytorch220]",
+    #"unsloth[cu121onlytorch220]",
 ]
 cu118-torch230 = [
     "unsloth[huggingface]",
@@ -279,7 +279,7 @@ colab-ampere = [
 cu118-ampere = [
     "unsloth[huggingface]",
     "bitsandbytes>=0.43.3",
-    "unsloth[cu118only]",
+    #"unsloth[cu118only]",
     "packaging",
     "ninja",
     "flash-attn>=2.6.3",
@@ -287,7 +287,7 @@ cu118-ampere = [
 cu121-ampere = [
     "unsloth[huggingface]",
     "bitsandbytes>=0.43.3",
-    "unsloth[cu121only]",
+    #"unsloth[cu121only]",
     "packaging",
     "ninja",
     "flash-attn>=2.6.3",
@@ -295,7 +295,7 @@ cu121-ampere = [
 cu118-ampere-torch211 = [
     "unsloth[huggingface]",
     "bitsandbytes>=0.43.3",
-    "unsloth[cu118onlytorch211]",
+    #"unsloth[cu118onlytorch211]",
     "packaging",
     "ninja",
     "flash-attn>=2.6.3",
@@ -303,7 +303,7 @@ cu118-ampere-torch211 = [
 cu121-ampere-torch211 = [
     "unsloth[huggingface]",
     "bitsandbytes>=0.43.3",
-    "unsloth[cu121onlytorch211]",
+    #"unsloth[cu121onlytorch211]",
     "packaging",
     "ninja",
     "flash-attn>=2.6.3",
@@ -311,7 +311,7 @@ cu121-ampere-torch211 = [
 cu118-ampere-torch220 = [
     "unsloth[huggingface]",
     "bitsandbytes>=0.43.3",
-    "unsloth[cu118onlytorch220]",
+    #"unsloth[cu118onlytorch220]",
     "packaging",
     "ninja",
     "flash-attn>=2.6.3",
@@ -319,7 +319,7 @@ cu118-ampere-torch220 = [
 cu121-ampere-torch220 = [
     "unsloth[huggingface]",
     "bitsandbytes>=0.43.3",
-    "unsloth[cu121onlytorch220]",
+    #"unsloth[cu121onlytorch220]",
     "packaging",
     "ninja",
     "flash-attn>=2.6.3",
